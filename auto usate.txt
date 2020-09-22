@@ -1,0 +1,13 @@
+
+id		numero incrementale	primary key	unique, ai
+targa		stringa			varchar(8)	unique
+marca		stringa			varchar(18)	not null
+modello		stringa			varchar(20)	not null	
+cilindrata	numero			float(2,1)
+alimentazione	stringa			varchar(10)	
+cambio		stringa			varchar(14)	default('manuale')
+km		tipo			mediumint	not null
+colore		stringa			varchar(10)			
+prezzo		numero			float(8,2)	not null
+anno		data			year		not null
+
